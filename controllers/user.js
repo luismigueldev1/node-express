@@ -24,7 +24,7 @@ const createUser = async (req = request, res = response) => {
   await user.save();
 
   //response
-  res.json(user);
+  res.status(201).json(user);
 };
 
 //PUT REQUEST - UPDATE USER
