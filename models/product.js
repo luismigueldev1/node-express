@@ -34,6 +34,9 @@ const ProductSchema = Schema({
     type: Boolean,
     default: true,
   },
+  img: {
+    type: String,
+  },
 });
 
 // Cleaning category to return without password
